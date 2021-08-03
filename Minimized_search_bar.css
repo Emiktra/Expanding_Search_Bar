@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+}
+body > p {
+  padding: 20px 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body nav {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: #202020;
+  height: 175px;
+  padding: 10px;
+}
+body nav ul {
+  list-style: none;
+  color: #fff;
+  display: flex;
+  align-self: flex-end;
+  padding: 10px;
+  margin-bottom: auto;
+}
+body nav ul a {
+  padding: 5px 10px;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+body nav ul a:hover {
+  color: #0BDA51;
+}
+body nav > h1 {
+  color: #2296BC;
+  margin: 0;
+  font-style: italic;
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body nav > h5 {
+  color: #2296BC;
+  margin: 0 0 50px 0;
+}
+body nav main {
+  min-height: 5%;
+  border: 2px solid #0BDA51;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+body nav main i {
+  font-size: 26px;
+}
+body nav main input {
+  outline: none;
+  border: none;
+  position: relative;
+  font-size: 1rem;
+  left: 10px;
+}
+body nav main button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.open {
+  transition: 0.25s ease-in-out;
+}
+
+.closed {
+  transition: 0.25s ease-in-out;
+}
+
+.btnClosed {
+  display: none;
+}
+
+.btnOpen {
+  margin: 0 3px;
+}
+
+.inputOpen {
+  width: 250px;
+  visibility: visible;
+  transition: 0.25s;
+}
+
+.inputClosed {
+  width: 0px;
+  visibility: hidden;
+  transition: 0.25s;
+}
+
+.inputClosed2 {
+  display: none;
+  transition: 0.25s;
+}/*# sourceMappingURL=Minimized_search_bar.css.map */
